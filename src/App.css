@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: aliceblue;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 40px;
+  padding-left: 60px;
+}
+span {
+  color: red;
+}
+nav  {
+  display: flex;
+  justify-content: space-between ;
+}
+nav a {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+  color: white;
+  margin-top: 55px;
+}
+nav a:last-child{
+  margin-right: 100px;
+}
+nav a:hover {
+  color: red ;
+}
+main > h1 {
+  text-align: start;
+  padding-left: 100px;
+  padding-right: 700px;
+}
+main > p {
+  color: gray;
+  padding-left: 100px;
+}
+.button-1 {
+  margin-top :10px ;
+  margin-left: 100px;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  width: 200px;
+}
+.services- {
+  display: flex;
+}
+.skills {
+  padding-left: 100px;
+}
+h3 {
+  color: red;
+}
+.works {
+  padding-left: 100px;
+}
+.works a {
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 10px ;
+}
+.contact {
+  display: grid;
+  margin-left: 100px;
+}
+input {
+  background-color: rgb(39, 39, 39);
+  margin : 15px 0px 10px 0px;
+  width: 20%;
+  height: 60%;
+  border: none;
+}
+.button-2 {
+  margin-top :10px ;
+  margin-left: 75px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  width: 150px;
+  border: none;
+}
